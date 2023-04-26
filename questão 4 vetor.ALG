@@ -1,16 +1,16 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 25/04/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    numero: vetor[1..6] de inteiro
    i, par, impar: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
    para i de 1 ate 6 passo 1 faca
 
@@ -19,14 +19,14 @@ Inicio
    fimpara
 
    para i de 1 ate 6 passo 1 faca
-        se i mod 2 = 0 entao
+        se numero[i] mod 2 = 0 entao
          par <-par + 1
       senao
          impar <- impar + 1
       fimse
       fimpara
       
-      escreval("Os números pares são: ", par)
-      escreval("Os números ímpares são: ", impar)
+      escreval("Os nÃºmeros pares sÃ£o: ", par)
+      escreval("Os nÃºmeros Ã­mpares sÃ£o: ", impar)
 
 Fimalgoritmo
